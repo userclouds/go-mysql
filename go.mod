@@ -1,8 +1,6 @@
 module github.com/go-mysql-org/go-mysql
 
-go 1.22
-
-toolchain go1.23.1
+go 1.24
 
 require (
 	github.com/BurntSushi/toml v1.3.2
@@ -11,7 +9,7 @@ require (
 	github.com/goccy/go-json v0.10.2
 	github.com/google/uuid v1.3.0
 	github.com/jmoiron/sqlx v1.3.3
-	github.com/klauspost/compress v1.17.8
+	github.com/klauspost/compress v1.18.7
 	github.com/pingcap/errors v0.11.5-0.20240311024730-e056997136bb
 	github.com/pingcap/tidb/pkg/parser v0.0.0-20241118164214-4f047be191be
 	github.com/shopspring/decimal v1.2.0
